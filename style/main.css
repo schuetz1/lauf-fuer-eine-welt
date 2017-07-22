@@ -1,0 +1,56 @@
+.counter-buttons, .button-size {
+    text-align: center;
+    padding: 33px 77px !important;
+}
+
+.header {
+    margin-top: 10px;
+}
+
+.content {
+    margin-top: 78px;
+    background-color: #f4f3ef !important;
+    padding: 30px 0 50px 0;
+}
+
+.button {
+    background-color: #a51336 !important;
+    border-color: #a51336 !important;
+    color: white !important;
+}
+
+.laufdata {
+    margin-left: 14px !important;
+    margin-right: 20px !important;
+    background-color: #a51336;
+    color: white;
+    border-radius: 7px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+@media (min-width: 992px) {
+    .col-md-3 {
+        width: 22%!important;
+    }
+}
+@media (max-width: 991px){
+    .laufdata{
+        text-align: center;
+    }
+}
+
+.lauf-numbers {
+    font-size: 30px;
+}
+.countdown{
+    text-align: center;
+    font-size: 30px;
+}
+.time-to-end{
+    font-size: 14px;
+}
+
+.settings{
+    margin-bottom: 20px;
+}
